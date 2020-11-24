@@ -1,0 +1,43 @@
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.wrapper {
+  padding: 0;
+}
+.main-menu {
+  padding-top: 20px;
+}
+.main-menu-item {
+  font-size: 1.2rem;
+}
+.main-menu-item:not(:last-child) {
+  margin-right: 20px;
+}
+.main-menu-link {
+  font-weight: 400;
+  color: var(--bs-white);
+  text-shadow: 1px 1px 2px var(--bs-white), 0 0 0.2em var(--bs-white);
+}
+
+/* main */
+
+.hero {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #808080;
+}
+.title-main {
+  padding-right: 50px;
+  text-align: right;
+  margin: 0;
+  font-size: 56px;
+  color: var(--bs-white);
+}
+.title-main-second {
+  font-weight: 700;
+  font-size: 82px;
+  color: var(--bs-gray);
+}
